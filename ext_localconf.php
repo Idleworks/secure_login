@@ -23,7 +23,7 @@ defined('TYPO3_MODE') || die('Access denied.');
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\TYPO3\CMS\Saltedpasswords\SaltedPasswordService::class] = [
     'className' => \Pluswerk\SecureLogin\Service\AuthenticationServices\SaltedPasswordService::class,
 ];
-$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\TYPO3\CMS\Sv\AuthenticationService::class] = [
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\TYPO3\CMS\Core\Authentication\AuthenticationService::class] = [
     'className' => \Pluswerk\SecureLogin\Service\AuthenticationServices\AuthenticationService::class,
 ];
 
